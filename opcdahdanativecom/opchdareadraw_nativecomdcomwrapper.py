@@ -36,13 +36,13 @@ from typing import Any, Dict, List, Optional, Tuple
 
 from ctypes.wintypes import BOOL, DWORD, FILETIME, WORD
 
-DEFAULT_HOST = "192.168.1.6"
+DEFAULT_HOST = "192.168.1.3"
 DEFAULT_SERVER_PROGID = "IntegrationObjects.AdvancedSimulator.1"
 # Server CLSID (from HKCR\IntegrationObjects.AdvancedSimulator.1\CLSID on PC1).
 # Needed when ProgID is not registered on the client (native CoCreate).
 DEFAULT_SERVER_CLSID = "{22260278-2009-1112-1982-11121982ABCD}"
 DEFAULT_TAG = "Random/Int1"
-DEFAULT_USER = "Swapnildebtasus\\Swapnil kumar debta"
+DEFAULT_USER = "Swapnil kumar debta"
 DEFAULT_HISTORY_MINUTES = 10
 DEFAULT_NUM_VALUES = 0
 DEFAULT_ENV_FILE = ".env"

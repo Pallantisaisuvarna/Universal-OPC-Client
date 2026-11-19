@@ -41,11 +41,11 @@ from typing import Any, Dict, List, Optional, Tuple
 
 from ctypes.wintypes import BOOL, DWORD, FILETIME, WORD
 
-DEFAULT_HOST = "192.168.1.141"
-DEFAULT_SERVER_PROGID = "Matrikon.OPC.Simulation.1"
-DEFAULT_SERVER_CLSID = "{F8582CF2-88FB-11D0-B850-00C0F0104305}"
-DEFAULT_TAG = "Random.Int1"
-DEFAULT_USER = "desktop-e9295iq\\dell"
+DEFAULT_HOST = "192.168.1.3"
+DEFAULT_SERVER_PROGID = "IntegrationObjects.AdvancedSimulator.1"
+DEFAULT_SERVER_CLSID = "{22260278-2009-1112-1982-11121982ABCD}"
+DEFAULT_TAG = "Random/Int1"
+DEFAULT_USER = "Swapnil kumar debta"
 DEFAULT_INTERVAL = 1.0
 DEFAULT_ENV_FILE = ".env"
 
